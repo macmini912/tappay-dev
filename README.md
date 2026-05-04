@@ -9,7 +9,7 @@ Source workspace: `/Users/macmini/.openclaw/workspace/tappay-github-pages`
 1. Create a new GitHub repository.
 2. Push the contents of this folder to the repository.
 3. In GitHub, go to `Settings > Pages`.
-4. Set the source to the branch that contains these files.
+4. Set the source to `GitHub Actions`.
 5. Use the generated `https://USERNAME.github.io/REPO/` URL.
 
 This folder intentionally does not include a `CNAME`, `_worker.js`, `_routes.json`, backup files, or an existing `.git` directory.
