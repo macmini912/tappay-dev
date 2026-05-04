@@ -18,4 +18,8 @@ This folder intentionally does not include a `CNAME`, `_worker.js`, `_routes.jso
 
 TapPay is intentionally not connected to the existing CartSkip backend.
 
-Set `TAPPAY_BACKEND_API_ENDPOINT` in `app.js` after a new TapPay Supabase project/function is deployed. Until then, public orders are saved locally in the browser and email/admin sync will show as not configured.
+Current TapPay backend:
+
+```text
+https://nvcothattawepepsbihg.functions.supabase.co/tappay-api
+```
