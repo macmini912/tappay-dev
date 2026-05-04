@@ -1,0 +1,30 @@
+/*
+  Optional theme CSS overrides live here.
+  Core layout stays in ../styles.css; preset values live in ./index.js.
+*/
+
+body[data-theme="dark-streetwear"] .catalogIntro,
+body[data-theme="dark-streetwear"] .howItWorksBlock,
+body[data-theme="dark-streetwear"] .paymentBox,
+body[data-theme="dark-streetwear"] .successCard,
+body[data-theme="dark-streetwear"] .settingsGrid,
+body[data-theme="dark-streetwear"] .requestItem{
+  border-color:rgba(255,255,255,.14);
+}
+
+body[data-theme="dark-streetwear"] .catalogIntro::after{
+  background:var(--lime);
+}
+
+body[data-theme="dark-streetwear"] .productInfo h2,
+body[data-theme="dark-streetwear"] .cardPrice,
+body[data-theme="dark-streetwear"] .titleRow h1,
+body[data-theme="dark-streetwear"] .titleRow strong,
+body[data-theme="dark-streetwear"] .field label{
+  color:#111;
+}
+
+body[data-theme="dark-streetwear"] .catalogIntro h1,
+body[data-theme="dark-streetwear"] .howItWorksBlock h2{
+  color:#111;
+}

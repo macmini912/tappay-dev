@@ -1,0 +1,31 @@
+/*
+ themes/dark-drop.css
+ Optional CSS overrides for the Dark Drop TapPay theme.
+ Core layout stays in styles.css; preset values live in themes/index.js.
+*/
+
+body[data-theme="dark-drop"] .catalogIntro,
+body[data-theme="dark-drop"] .howItWorksBlock,
+body[data-theme="dark-drop"] .paymentBox,
+body[data-theme="dark-drop"] .successCard,
+body[data-theme="dark-drop"] .settingsGrid,
+body[data-theme="dark-drop"] .requestItem {
+ border-color: rgba(240, 237, 232, 0.1);
+}
+
+body[data-theme="dark-drop"] .catalogIntro::after {
+ background: #f0ede8;
+}
+
+body[data-theme="dark-drop"] .productInfo h2,
+body[data-theme="dark-drop"] .cardPrice,
+body[data-theme="dark-drop"] .titleRow h1,
+body[data-theme="dark-drop"] .titleRow strong,
+body[data-theme="dark-drop"] .field label {
+ color: #f0ede8;
+}
+
+body[data-theme="dark-drop"] .catalogIntro h1,
+body[data-theme="dark-drop"] .howItWorksBlock h2 {
+ color: #0f0f0f;
+}
